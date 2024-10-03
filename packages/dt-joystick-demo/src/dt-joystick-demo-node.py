@@ -49,15 +49,6 @@ class DTJoystickDemoNode():
 
 
 
-
-
-
-
-
-
-
-
-
 if __name__=="__main__":
     node = DTJoystickDemoNode()
     rospy.init_node('dt-joystick-demo-node')
