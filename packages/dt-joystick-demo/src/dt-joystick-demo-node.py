@@ -6,7 +6,7 @@ from duckietown_msgs.msg import WheelsCmdStamped
 print(veh_name+"111")
 class DTJoystickDemoNode():
     def __init__(self):
-    	veh_name = os.environ['VEHICLE_NAME']
+        veh_name = os.environ['VEHICLE_NAME']
         self.sub_joy = rospy.Subscriber(
             f"/{veh_name}/joy", 
             Joy,
