@@ -3,7 +3,6 @@ import os
 import rospy
 from sensor_msgs.msg import Joy
 from duckietown_msgs.msg import WheelsCmdStamped
-print(veh_name+"111")
 class DTJoystickDemoNode():
     def __init__(self):
         veh_name = os.environ['VEHICLE_NAME']
